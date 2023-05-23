@@ -22,6 +22,18 @@ public class LibrosServiceImpl implements LibrosService{
 		return librosRepository.findAll();
 	}
 
+	@Override
+	public Libros registraLibros(Libros obj) {
+		// TODO Auto-generated method stub
+		return librosRepository.save(obj);
+	}
+
+	@Override
+	public List<Libros> listaLibrosPorId(int idLibro) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 
 }
