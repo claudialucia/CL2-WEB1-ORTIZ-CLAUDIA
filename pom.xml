@@ -11,7 +11,7 @@
 	<groupId>com.empresa</groupId>
 	<artifactId>Sesion01Inicio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Sesion01Inicio</name>
+	<name>CL2-ORTIZ-CLAUDIA</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -29,18 +29,21 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
+			<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
 
+
+
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<scope>provided</scope>
-		</dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.26</version>
+		<scope>provided</scope>
+	</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
